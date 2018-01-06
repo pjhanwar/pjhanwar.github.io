@@ -1,0 +1,43 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: USC Centre for Artificial Intelligence in Society
+    i18n: company_a
+  desc:
+    detail: Currently working on research project in AI and Game Theory for Public Safety and Security with CAIS research group under Prof. Milind Tambe. Core resposiblities include software development of CAIS research projects, management of teamcore websites cais.usc.edu and teamcore.usc.edu and writing code with respect to the publication pages.
+    i18n: company_a_desc
+  date:
+    detail: October 2017 - Till Date
+    i18n: company_a_date
+  job:
+    detail: Webmaster & Student Worker
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: Symantec Corporation
+    i18n: company_b
+  desc:
+    detail: Worked as a part of Security Technology and Response group at Symantec. Core Responsibilities were to increase the Malware and Grayware coverage and also to carry out various efficacy improvement and research activities.
+    i18n: company_b_desc
+  date:
+    detail: June 2015 - July 2017
+    i18n: company_b_date
+  job:
+    detail: Associate Threat Analysis Engineer
+    i18n: company_b_job
+  icon: fa-plus-square
+  
+- name:
+    detail: Amazon Development Centre
+    i18n: company_c
+  desc:
+    detail: Worked on a project named Fulfillment by Amazon Planning & Automation a.k.a FBAPA. Developed Seller selection, Forecast Override and Backend services for FBAPA portal which was used to recommend quantities of items to the sellers. Authored hive scripts for normalizing the demands of the customers. 
+    i18n: company_c_desc
+  date:
+    detail: January 2014 - July 2014
+    i18n: company_c_date
+  job:
+    detail: Software Developer, Intern
+    i18n: company_c_job
+  icon: fa-plus-square

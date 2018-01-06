@@ -1,0 +1,73 @@
+<div class="container" id="i18_education">
+    <div class="row m-b-lg">
+        <div class="col-lg-12 text-center">
+            <div class="navy-line"></div>
+            <h1><span data-i18n="education.education">Education</span></h1>
+        </div>
+    </div>
+    <div class="row">
+        {% for education in site.data.index.education %}
+            {% assign loopindex = forloop.index | modulo: 2 %}
+            {% if forloop.last %}
+                {% if forloop.last == forloop.first %}
+            <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+                {% else %}
+            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+                {% endif %}
+            {% else %}
+            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+            {% endif %}
+              <div class="team-member">
+                  <img src="{{ education.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
+                  <h4>
+                  {% if education.url %}
+                  <a href="{{ education.url }}" target="_blank"><span class="navy">{{ education.name }}</span></a>
+                  {% endif %}
+                  </h4>
+                  <p><span data-i18n="education.{{ education.i18n }}">{{ education.desc }}</span></p>
+                  <p><span data-i18n="education.{{ education.i18n }}">{{ education.date-range }}</span></p>
+		  {% if education.courses %}
+                 <p>
+     		<div class="show-courses" onclick="toggleCourses(this);">View courses</div>
+		<div>
+		<ol class="courses hidden">
+			<li>Analysis of Algorithms</li>
+			<li>Foundations of Artificial Intelligence</li>
+			<li>Applied Natural Language Processing</li>
+			<li>Database Systems</li>
+		</ol>
+		</div>
+		</p>
+		{% else %}
+		<p>
+    			<div class="show-courses" onclick="toggleCourses(this);">View courses</div>
+			<div>
+			<ol class="courses hidden">
+				<li>Data Structures</li>
+				<li>Compiler Design</li>
+				<li>Distributed Systems</li>
+				<li>Cloud Computing & Big Data</li>
+				<li>Computer Organization</li>
+				<li>Computer Graphics and Multimedia</li>
+				<li>Computer Networks</li>
+				<li>Database Management System</li>
+				<li>Design and Analysis of Algorithms</li>
+				<li>Data Communication</li>
+				<li>Microprocessor Theory and Applications</li>
+				<li>Object Oriented Programming</li>
+				<li>Operating Systems</li>
+				<li>Software Engineering</li>
+				<li>Theory of Computation</li>
+				<li>Network Security</li>
+				<li>Data Mining</li>
+				<li> Principles of Programming Languages</li>
+			</ol>
+			</div>
+		</p>
+		{% endif %}
+              </div>
+          </div>
+      {% endfor %}
+    </div>
+</div>
+<br>

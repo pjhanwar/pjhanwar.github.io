@@ -1,0 +1,18 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: University of Southern California, Los Angeles
+  i18n: USC
+  gh_user: pjhanwar
+  url: https://www.usc.edu/
+  img: /static/assets/img/landing/usc.png
+  desc: Masters of Science, Computer Science
+  date-range: August 2017 - May 2019
+  courses: y
+
+- name: Symbiosis International University
+  i18n: SIU
+  url: https://www.sitpune.edu.in/
+  img: /static/assets/img/landing/siu.jpeg
+  desc: Bachelor of Technology, Computer Science
+  date-range: August 2011 - May 2015

@@ -1,0 +1,43 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: 
+    detail: A new technique for detecting and blocking the installation of malicious software based on the reputation of the loadpoint n-grams
+    i18n: a
+  desc:
+    detail: Published 2017
+    i18n: a_desc
+  date:
+    detail: October 2017
+    i18n: a_date
+  job:
+    detail: 27th annual Virus Bulletin International Conference 2017
+    i18n: a_job
+  icon: fa-plus-square
+
+- name: 
+    detail: Method and apparatus for identifying prospective malware files, present on client machines, based on hygiene level specific prevalence of non-Ground Truth and non-New files, for sending to back-end for deeper analysis
+    i18n: b
+  desc: 
+    detail: Submitted for Patent
+    i18n: b_desc
+  date:
+    detail: April 2017
+    i18n: b_date
+  job:
+    detail: Symantec reference number 170048
+    i18n: b_job
+  icon: fa-plus-square
+
+- name: 
+    detail: Method and system to detect malicious Non-PE files using static attributes features
+    i18n: c
+  desc:
+    detail: Submitted for Patent
+    i18n: c_desc
+  date:
+    detail: July 2016
+    i18n: c_date
+  job:
+    detail: Symantec reference number 160316
+    i18n: c_job
+  icon: fa-plus-square
