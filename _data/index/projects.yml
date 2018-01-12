@@ -59,4 +59,4 @@
   gh_user: pjhanwar
   repo: N-Queens-with-Obstacles
   img: /static/assets/img/landing/python.png
-  desc: The code is an implementation of traditional N-Queens problem with obstacles using 3 algorithms namely Depth First Search, Breadth First Search & Simiulated Annealing. If an obstacle is present in a row of the borad, the queen can be placed at either side of the obstacle without attacking each other. The code is a pure python implementation of basic search algorithms in Artificial Intelligence.  
+  desc: The code is an implementation of traditional N-Queens problem with obstacles using 3 algorithms namely Depth First Search, Breadth First Search & Simulated Annealing. If an obstacle is present in a row of the board, the queen can be placed at either side of the obstacle without attacking each other. The code is a pure python implementation of basic search algorithms in Artificial Intelligence.  
