@@ -4,7 +4,7 @@
   gh_user: pjhanwar
   repo: RestAPI-Node-App
   img: /static/assets/img/landing/Javascript.png
-  desc: A web service with a RESTful API using Node.js. The web service is used to query user data. The data is stored in mongoDB using node.js. It has the following endpoints: GET /users,  GET /users/{username}, POST /users/{username}, UPDATE /users/{username}, DELETE /users/{username} for storing and retrieving user information. 
+  desc: A web service with a RESTful API using Node.js. The web service is used to query user data. The data is stored in mongoDB using node.js. It has the following endpoints - GET /users,  GET /users/{username}, POST /users/{username}, UPDATE /users/{username}, DELETE /users/{username} for storing and retrieving user information. 
 
 - name: Part of Speech Tagger
   i18n: postagger
