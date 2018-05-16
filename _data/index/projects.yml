@@ -1,5 +1,4 @@
 # projects section data
-
 - name: RestAPI Node Application for Storing and Retrieving User Data 
   i18n: nodejs
   gh_user: pjhanwar
@@ -28,7 +27,7 @@
   img: /static/assets/img/landing/python.png
   desc: The code is an implementation of perceptron classifiers (vanilla and averaged) to identify hotel reviews as either true or fake, and either positive or negative using the word tokens as features from the text. The vanilla percpetron is 88.59% and averaged percpetron is 88.90% accurate in classifying test data calculated using F1 measure.
   
- - name: A new technique for detecting and blocking the installation of malicious software based on the reputation of the loadpoint n-grams
+- name: A new technique for detecting and blocking the installation of malicious software based on the reputation of the loadpoint n-grams
   i18n: ngram
   url: 
   img: /static/assets/img/landing/malware.jpg
