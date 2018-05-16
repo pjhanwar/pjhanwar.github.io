@@ -4,7 +4,7 @@
   gh_user: pjhanwar
   repo: RestAPI-Node-App
   img: /static/assets/img/landing/Javascript.png
-  desc: A web service with a RESTful API using Node.js. The web service is used to query user data. The data is stored in mongoDB using node.js.
+  desc: A web service with a RESTful API using Node.js. The web service is used to query user data. The data is stored in mongoDB using node.js. It has the following endpoints: GET /users,  GET /users/{username}, POST /users/{username}, UPDATE /users/{username}, DELETE /users/{username} for storing and retrieving user information. 
 
 - name: Part of Speech Tagger
   i18n: postagger
@@ -29,7 +29,7 @@
   
 - name: A new technique for detecting and blocking the installation of malicious software based on the reputation of the loadpoint n-grams
   i18n: ngram
-  url: 
+  url: https://www.virusbulletin.com/conference/vb2017/abstracts/new-technique-detecting-and-blocking-installation-malicious-software-based-reputation-loadpoint-n-grams
   img: /static/assets/img/landing/malware.jpg
   desc: Deploying a loadpoint entry is an integral part of installation for every malicious payload. It enables the payload to launch and execute every time the system boots. However, the loadpoint entries are not used as standalone detection entities. Instead, they are only cleaned up by anti-virus software, if the associated files are detected, either in a static scan or based on their behaviour. By identifying unique loadpoint trigrams from an internal telemetry collected over a predefined period and studying their associations with Ground Truth Good and Bad files, low confidence Good and Bad files and Unknown files, as well as honouring their prevalence and age, we were able to successfully validate the idea. Even in its most restricted form, based on the confidence for the disposition for the trigram, the technology is successfully used to either block an attack, prompt the user, or silently submit files and associated telemetry for backend validations. This research work is published in Virus Bulletin Conference 2017.
   
