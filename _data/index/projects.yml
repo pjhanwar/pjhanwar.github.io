@@ -1,6 +1,34 @@
 # projects section data
 
-- name: A new technique for detecting and blocking the installation of malicious software based on the reputation of the loadpoint n-grams
+- name: RestAPI-Node-Application for Storing and Retrieving User Data 
+  i18n: nodejs
+  gh_user: pjhanwar
+  repo: RestAPI-Node-App
+  img: /static/assets/img/landing/Javascript.png
+  desc: A web service with a RESTful API using Node.js. The web service is used to query user data. The data is stored in mongoDB using node.js. It has the following endpoints: GET /users,  GET /users/{username}, POST /users/{username}, UPDATE /users/{username}, DELETE /users/{username} for storing and retrieving user information. 
+
+- name: Part of Speech Tagger
+  i18n: postagger
+  gh_user: pjhanwar
+  repo: POS-Tagger
+  img: /static/assets/img/landing/python.png
+  desc: The code is an implementation of Hidden Markov Model part-of-speech tagger for English, Hindi and Chinese language. The training data is tokenized and tagged; the test data is also tokenized, and the tagger add the tags to the test data. Add one smoothing is done for unseen words. The tagger accurately classifies 88% and 85% of the text for English and Chinese respectively.
+
+- name: Naive Bayes Classifier
+  i18n: naive
+  gh_user: pjhanwar
+  repo: Naive-Bayes-Classifier
+  img: /static/assets/img/landing/python.png
+  desc: The code is an implementation of a Naive Bayes classifier to identify hotel reviews as either true or fake, and either positive or negative using the word tokens as features for classification. The model is 90.31% accurate in classifying test data calculated using F1 measure.
+  
+- name: Perceptron Classifier
+  i18n: perceptron
+  gh_user: pjhanwar
+  repo: Perceptron Classifier
+  img: /static/assets/img/landing/python.png
+  desc: The code is an implementation of perceptron classifiers (vanilla and averaged) to identify hotel reviews as either true or fake, and either positive or negative using the word tokens as features from the text. The vanilla percpetron is 88.59% and averaged percpetron is 88.90% accurate in classifying test data calculated using F1 measure.
+  
+ - name: A new technique for detecting and blocking the installation of malicious software based on the reputation of the loadpoint n-grams
   i18n: ngram
   url: 
   img: /static/assets/img/landing/malware.jpg
@@ -44,7 +72,7 @@
 
 - name: Profile Based System for String Analysis and Categorization
   i18n: string
-  url: https://google.com
+  url: 
   img: /static/assets/img/landing/python.png
   desc: Profile based system for String Analysis and Categorization is a system capable of classifying a string being Malicious or Clean based on string signatures and emulator dumps. Created training data set of pre-existing malicious and clean files by extracting strings, normalizing them using using pre-defined set of rules and values to create a string and segment profile. The system was tested on unseen clean and malicious files and was found to classify files accurately with 5% FP rate. The system was then used to automatically author string signatures. Technologies used are Python, MSSQL, Malware Analysis and Debugging.
 
@@ -60,3 +88,4 @@
   repo: N-Queens-with-Obstacles
   img: /static/assets/img/landing/python.png
   desc: The code is an implementation of traditional N-Queens problem with obstacles using 3 algorithms namely Depth First Search, Breadth First Search & Simulated Annealing. If an obstacle is present in a row of the board, the queen can be placed at either side of the obstacle without attacking each other. The code is a pure python implementation of basic search algorithms in Artificial Intelligence.  
+  
