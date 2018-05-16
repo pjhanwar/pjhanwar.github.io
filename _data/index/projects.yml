@@ -24,7 +24,7 @@
 - name: Perceptron Classifier
   i18n: perceptron
   gh_user: pjhanwar
-  repo: Perceptron Classifier
+  repo: Perceptron-Classifier
   img: /static/assets/img/landing/python.png
   desc: The code is an implementation of perceptron classifiers (vanilla and averaged) to identify hotel reviews as either true or fake, and either positive or negative using the word tokens as features from the text. The vanilla percpetron is 88.59% and averaged percpetron is 88.90% accurate in classifying test data calculated using F1 measure.
   
