@@ -1,6 +1,6 @@
 # projects section data
 
-- name: RestAPI-Node-Application for Storing and Retrieving User Data 
+- name: RestAPI Node Application for Storing and Retrieving User Data 
   i18n: nodejs
   gh_user: pjhanwar
   repo: RestAPI-Node-App
