@@ -20,7 +20,7 @@ author:  # change following line to your infomation.
   facebook_username: prachi.jhavar  # Leave blank if you don't have now
   twitter_username:   # Leave blank if you don't have now
   email: pjhanwar@usc.edu # Leave blank if you don't have now
-  cv: https://drive.google.com/file/d/1Rinea48AVi7ZNkeb73xDMKMH2VPW6kV_/view?usp=sharing # An online CV can be printed as PDF, leave blank if you don't have now
+  cv: https://drive.google.com/open?id=1Rinea48AVi7ZNkeb73xDMKMH2VPW6kV_ # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: fa-hand-peace-o
